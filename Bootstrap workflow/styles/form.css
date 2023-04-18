@@ -1,0 +1,140 @@
+
+
+.header-form {
+    color: #000;
+}
+
+
+.note {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .note-container {
+    margin-bottom: 1.5rem;
+
+  }
+
+  .note-list .note-container {
+    max-width: 500px;
+  }
+  
+  
+  .important {
+    border-color: red;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+
+  #name-input {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+  }
+  
+  .form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .form-check-input:checked:focus {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .form-check-input:checked:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  #note-list {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #6c757d;
+    background-color: transparent;
+    }
+  
+  #note-list p {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+    color: black;
+    }
+    
+    #note-list p.important {
+    border: 2px solid red;
+    }
+    
+    #note-list p time {
+    font-size: 0.8rem;
+    color: #999;
+    }
+    
+    #note-list p span {
+    font-weight: bold;
+    color: #333;
+    }
+    
+    .btn-primary {
+    background-color: #4d4dff;
+    border-color: #4d4dff;
+    }
+    
+    .btn-primary:hover {
+    background-color: #1a1aff;
+    border-color: #1a1aff;
+    }
+    
+    label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+    }
+
+
+
+
+    
+
+    @media screen and (max-width: 500px) {
+        #form-container {
+            padding: 3rem;
+        }
+    }
+    
